@@ -447,7 +447,7 @@ Media Queries
     }
 
     .home-content h {
-        font-size: 5rem;
+        font-size: 4.3rem;
     }
 
     .home-img img {
@@ -463,5 +463,15 @@ Media Queries
         padding-bottom: 7rem;
         grid-template-columns: repeat(1,1fr);
         margin: 0 5rem;
+    }   
+}
+
+@media(max-width: 625px) {
+    .text-animation {
+        visibility: hidden;
+    }
+
+    p {
+        margin-top: -2rem;
     }
 }
